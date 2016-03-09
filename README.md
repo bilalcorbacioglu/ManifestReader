@@ -3,7 +3,7 @@
 
 Manifest Reader ona verdiğiniz uygulamanın ( APK, XAP, IPA ) manifest verilerini okumanızı sağlar. Bu sayede uygulamalarınızın Beta test & Production ve Enterprise süreçlerinde manifest bilgilerini okumada size kolaylık sağlar.
 
-## Usage and Examples (Kullanım ve Örnek)
+## Usage and Examples
 ### XAP Manifest Reader
 XAP uygulamaların manifest bilgileri içinde bir çok tag yer almakta. Proje içinde kullanıcağınız tagleri kod kısmında düzenleyebilirsiniz. Ufak bir örnek verelim.
 
