@@ -60,7 +60,11 @@ namespace Manifest.Reader.APK
             Console.WriteLine(string.Format("label: {0}", info.label));
             Console.WriteLine(string.Format("resourcesFileBytes: {0}", info.resourcesFileBytes));
             Console.WriteLine(string.Format("resourcesFileName: {0}", info.resourcesFileName));
-            
+            /*
+            Console.WriteLine(string.Format("App Has Icon: {0}", info.hasIcon));
+            if(info.iconFileName.Count > 0)
+                Console.WriteLine(string.Format("App Icon: {0}", info.iconFileName[0]));
+            */
             
             if (info.Permissions != null && info.Permissions.Count > 0)
             {
@@ -74,6 +78,12 @@ namespace Manifest.Reader.APK
             {
                 Console.WriteLine("No Permissions Found");
             }
+            /*
+            Console.WriteLine(string.Format("Supports Any Density: {0}", info.supportAnyDensity));
+            Console.WriteLine(string.Format("Supports Large Screens: {0}", info.supportLargeScreens));
+            Console.WriteLine(string.Format("Supports Normal Screens: {0}", info.supportNormalScreens));
+            Console.WriteLine(string.Format("Supports Small Screens: {0}", info.supportSmallScreens));
+            */
 
             return info;
         }
