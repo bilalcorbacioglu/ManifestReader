@@ -41,6 +41,7 @@ XAP'ta olduğu gibi bu kısımda da işinize yarayan kısımları kullanabilirsi
 Yukarıdaki resimlerde gördüğünüz gibi bir .ipa dosyasını açtığımızda, Payload adında default olarak bir klasör gelmekte. Payload içindeki dosyanın ismi ise "blabla.app" değişken olabilmektedir. Bu sebepten kodda ki şu kısımda sizden bu bilgiler istenmektedir.
 
 [![image](https://github.com/bilalcorbacioglu/ManifestReader/raw/master/image/01i.png)](https://github.com/bilalcorbacioglu/ManifestReader/raw/master/image/01i.png)
+
 PList'i direk zip dışına çıkarırsak, bozulmuş bir biçimde çıkacağını gözlemleyebilirsiniz. Bunun olmaması için 54-60 arasındaki satırları kullanarak extract ediyoruz.
 
 [![image](https://github.com/bilalcorbacioglu/ManifestReader/raw/master/image/02i.png)](https://github.com/bilalcorbacioglu/ManifestReader/raw/master/image/02i.png)
@@ -62,3 +63,12 @@ Plist'in diğer manifest dosyalarına nazaran başka bir dez avantajı olduğu i
 
 </dict>
 ```
+
+### Credits
+
+ * [Bilal Çorbacıoğlu](https://github.com/bilalcorbacioglu)
+
+
+###License
+
+The GNU General Public License - see [LICENSE.md](https://github.com/bilalcorbacioglu/ManifestReader/blob/master/LICENSE) for more details
